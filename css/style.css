@@ -63,6 +63,9 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.historyPayments .accounts img {
+  width: 50px;
+}
 .historyPayments .accounts .account-about {
   display: flex;
   align-items: flex-start;
