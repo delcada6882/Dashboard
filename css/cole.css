@@ -1,10 +1,29 @@
 * {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+
+li {
+  list-style-position: inside;
+}
+
+body {
+  background-color: azure;
 }
 
 .navigation {
   background: #dadfea;
   border-radius: 5px 0 0 5px;
+  height: 100vh;
+  margin: 5px 1em;
+  padding: 1em;
+}
+
+.container {
+  background-color: whitesmoke;
+  height: 100vh;
+  margin: 5px 1em;
+  padding: 1em;
 }
 
 h5 {
