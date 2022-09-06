@@ -29,13 +29,13 @@ body {
 
 .cardUpdate {
   margin-bottom: 5%;
-}
-
-.recentPayments {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-flow: row;
+}
+
+.recentPayments {
   margin-left: 5%;
   margin-bottom: 40px;
 }

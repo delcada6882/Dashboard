@@ -25,9 +25,10 @@ body {
 }
 .cardUpdate {
     margin-bottom: 5%;
+    @include flexCenter(center, space-between, row);
 }
 .recentPayments {
-    @include flexCenter(center, space-between, row);
+
     margin-left: 5%;
     margin-bottom: 40px
 }
