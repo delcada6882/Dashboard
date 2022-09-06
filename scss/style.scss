@@ -35,6 +35,21 @@ body {
     @include flexCenter(center, space-between, row);
     margin-left: 5%;
 }
+.historyPayments {
+    @include flexCenter(flex-start, flex-start, row wrap);
+    margin-left: 5%;
+    .accounts {
+        margin-bottom: 5%;
+        width: 40%;
+        padding-right: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .account-about {
+            @include flexCenter(flex-start, center, column)
+        }
+    }
+}
 
 
 

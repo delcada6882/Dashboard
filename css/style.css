@@ -48,4 +48,26 @@ body {
   margin-left: 5%;
 }
 
+.historyPayments {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  margin-left: 5%;
+}
+.historyPayments .accounts {
+  margin-bottom: 5%;
+  width: 40%;
+  padding-right: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.historyPayments .accounts .account-about {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-flow: column;
+}
+
 /*# sourceMappingURL=style.css.map */
