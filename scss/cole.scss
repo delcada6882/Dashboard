@@ -1,6 +1,8 @@
-$primary_blue: rgb(43, 106, 255);
+$primary_blue: rgb(46, 109, 255);
 $prime_grey: #dfe3ec;
+$blue_light: rgb(201, 217, 255);
 $height: 100vh;
+$darker: rgba(0,0,0,.15);
 
 
 *{
@@ -32,7 +34,16 @@ body{
 h5{
     color: rgba(0,0,0,.5);
 }
-h4{
+h4:not(.viewlist) {
     color: $primary_blue;
-    background-color: $prime_grey;
+}
+.cardUpdate h4, .recentPayments h4{
+    background-color: $blue_light;
+    padding: 0 7px;
+    border-radius: 15px;
+}
+.header h3{
+    background-color: $darker;
+    padding: 7px;
+    border-radius: 5px;
 }

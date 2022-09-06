@@ -31,9 +31,20 @@ h5 {
   color: rgba(0, 0, 0, 0.5);
 }
 
-h4 {
-  color: rgb(43, 106, 255);
-  background-color: #dfe3ec;
+h4:not(.viewlist) {
+  color: rgb(46, 109, 255);
+}
+
+.cardUpdate h4, .recentPayments h4 {
+  background-color: rgb(201, 217, 255);
+  padding: 0 7px;
+  border-radius: 15px;
+}
+
+.header h3 {
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 7px;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=cole.css.map */
