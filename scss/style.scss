@@ -17,12 +17,25 @@ body {
     margin-bottom: 30px;
 }
 .pending {
-    width: 33%;
+    width: 43%;
     padding-left: 5%;
     h1 {
         font-size: 40px;
     }
 }
+.cardUpdate {
+    margin-bottom: 5%;
+}
+.recentPayments {
+    @include flexCenter(center, space-between, row);
+    margin-left: 5%;
+    margin-bottom: 40px
+}
+.historyHeader {
+    @include flexCenter(center, space-between, row);
+    margin-left: 5%;
+}
+
 
 
 
