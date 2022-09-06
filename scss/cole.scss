@@ -1,5 +1,5 @@
 $primary_blue: rgb(43, 106, 255);
-$prime_grey: #dadfea;
+$prime_grey: #dfe3ec;
 $height: 100vh;
 
 
@@ -11,23 +11,23 @@ li{
     list-style-position: inside;
 }
 body{
-    background-color: azure;
+    background-color: rgb(175, 179, 189);
 }
-@mixin shaper(){
-    height: $height;
-    margin: 5px 1em;
+@mixin shaper($right: 0, $left: 0){
+    height: calc($height - 7em);
+    margin: 5px $right 5px $left;
     padding: 1em;
+    border-radius: $left $right $right $left;
 }
 .navigation{
     background: $prime_grey;
-    border-radius: 5px 0 0 5px;
 
-    @include shaper();
+    @include shaper(0,1em);
 }
 .container{
-    background-color: whitesmoke;
+    background-color: rgb(247, 250, 255);
 
-    @include shaper();
+    @include shaper(1em,0);
 }
 h5{
     color: rgba(0,0,0,.5);

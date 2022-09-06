@@ -8,22 +8,23 @@ li {
 }
 
 body {
-  background-color: azure;
+  background-color: rgb(175, 179, 189);
 }
 
 .navigation {
-  background: #dadfea;
-  border-radius: 5px 0 0 5px;
-  height: 100vh;
-  margin: 5px 1em;
+  background: #dfe3ec;
+  height: calc(100vh - 7em);
+  margin: 5px 0 5px 1em;
   padding: 1em;
+  border-radius: 1em 0 0 1em;
 }
 
 .container {
-  background-color: whitesmoke;
-  height: 100vh;
-  margin: 5px 1em;
+  background-color: rgb(247, 250, 255);
+  height: calc(100vh - 7em);
+  margin: 5px 1em 5px 0;
   padding: 1em;
+  border-radius: 0 1em 1em 0;
 }
 
 h5 {
@@ -32,7 +33,7 @@ h5 {
 
 h4 {
   color: rgb(43, 106, 255);
-  background-color: #dadfea;
+  background-color: #dfe3ec;
 }
 
 /*# sourceMappingURL=cole.css.map */
