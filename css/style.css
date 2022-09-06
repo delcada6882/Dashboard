@@ -36,6 +36,10 @@ body {
 }
 
 .recentPayments {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row;
   margin-left: 5%;
   margin-bottom: 40px;
 }
@@ -61,15 +65,22 @@ body {
   padding-right: 10%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 .historyPayments .accounts img {
   width: 50px;
+  margin: 10px;
 }
 .historyPayments .accounts .account-about {
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  flex-flow: column;
+}
+.historyPayments .accounts .account-amount {
+  padding-left: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   flex-flow: column;
 }
 
