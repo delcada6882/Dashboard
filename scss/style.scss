@@ -2,3 +2,14 @@
     margin: 0;
     padding: 0;
 }
+@mixin flexCenter($align, $justify, $direction) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+    flex-flow: $direction;
+}
+
+.header {
+    @include flexCenter(center, space-between, row);
+    background-color: beige;
+}
