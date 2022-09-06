@@ -22,6 +22,12 @@ body{
     border-radius: $left $right $right $left;
     box-shadow: 0px 0px 20px -10px rgba(0,0,0,0.75);
 }
+@mixin hoven(){
+    :hover
+    {
+        transform: translateY(50em);
+    }    
+}
 .navigation{
     background: $prime_grey;
 
@@ -48,6 +54,7 @@ h4 {
     background-color: $darker;
     padding: 7px;
     border-radius: 5px;
+    @include hoven();
 }
 img{
     background-color: $darker;
