@@ -3,4 +3,20 @@
   padding: 0;
 }
 
+body {
+  padding: 30px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row;
+  margin-bottom: 30px;
+}
+
+.pending h1 {
+  font-size: 25px;
+}
+
 /*# sourceMappingURL=style.css.map */

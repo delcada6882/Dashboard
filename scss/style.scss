@@ -8,8 +8,15 @@
     justify-content: $justify;
     flex-flow: $direction;
 }
-
+body {
+    padding: 30px
+}
 .header {
     @include flexCenter(center, space-between, row);
-    background-color: beige;
+    margin-bottom: 30px;
+}
+.pending {
+    h1 {
+        font-size: 25px;
+    }
 }
