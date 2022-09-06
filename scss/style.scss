@@ -28,7 +28,7 @@ body {
     @include flexCenter(center, space-between, row);
 }
 .recentPayments {
-
+    @include flexCenter(center, space-between, row);
     margin-left: 5%;
     margin-bottom: 40px
 }
@@ -45,9 +45,19 @@ body {
         padding-right: 10%;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        img {
+            width: 50px;
+            margin: 10px;
+        }
         .account-about {
             @include flexCenter(flex-start, center, column)
+        }
+        .account-amount {
+            padding-left: 60%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            flex-flow: column;
         }
     }
 }
