@@ -2,3 +2,28 @@
     margin: 0;
     padding: 0;
 }
+@mixin flexCenter($align, $justify, $direction) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+    flex-flow: $direction;
+}
+body {
+    @include flexCenter(flex-start, flex-start, row);
+    padding: 30px
+}
+.header {
+    @include flexCenter(center, space-between, row);
+    margin-bottom: 30px;
+}
+.pending {
+    width: 33%;
+    padding-left: 5%;
+    h1 {
+        font-size: 40px;
+
+    }
+}
+
+
+

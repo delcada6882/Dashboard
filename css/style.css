@@ -3,4 +3,28 @@
   padding: 0;
 }
 
+body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-flow: row;
+  padding: 30px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row;
+  margin-bottom: 30px;
+}
+
+.pending {
+  width: 33%;
+  padding-left: 5%;
+}
+.pending h1 {
+  font-size: 40px;
+}
+
 /*# sourceMappingURL=style.css.map */
