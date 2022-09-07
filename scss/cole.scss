@@ -21,17 +21,18 @@ body{
 @mixin shaper($right: 0, $left: 0){
     height: calc($height - 7em);
     margin: 5px $right 5px $left;
-    padding: 1em;
     border-radius: $left $right $right $left;
     box-shadow: 0px 0px 20px -10px rgba(0,0,0,0.75);
 }
 .navigation{
     background: $prime_grey;
+    padding: 2em 2em;
 
     @include shaper(0,1em);
 }
 .container{
     background-color: rgb(247, 250, 255);
+    padding: 2em 4em;
 
     @include shaper(1em,0);
 }
@@ -52,9 +53,9 @@ h4 {
     padding: 7px;
     border-radius: 5px;
 }
-.container img{
+.historyPayments :nth-child(n + 2) img{
     border-radius: 4px;
-    background-size: cover;
-    flood-color: black;
-    filter: invert(100%);
+    mask-image: url(https://i.postimg.cc/bvG2Jpj0/clipmask2.png);
+    filter: invert(100%) grayscale(1000%) brightness(1000%);
+
 }
