@@ -2,14 +2,16 @@
 * {
   margin: 0;
   padding: 0;
+  font-weight: 400;
+  font-family: "Open Sans";
 }
 
 body {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   flex-flow: row;
-  padding: 30px;
+  height: 100vh;
 }
 
 .container {
@@ -69,16 +71,20 @@ body {
 .historyPayments {
   display: flex;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: space-between;
   flex-flow: row wrap;
   margin-left: 5%;
 }
 .historyPayments .accounts {
-  margin-bottom: 5%;
+  margin-bottom: 10px;
   width: 40%;
   padding-right: 10%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+.historyPayments .accounts .anything {
+  display: flex;
 }
 .historyPayments .accounts img {
   width: 50px;
@@ -91,7 +97,6 @@ body {
   flex-flow: column;
 }
 .historyPayments .accounts .account-amount {
-  padding-left: 60%;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -116,6 +121,18 @@ body {
   justify-content: center;
   flex-flow: row;
   transform: scale(3);
+}
+
+nav {
+  padding-right: 100px;
+}
+
+.navigation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-flow: column;
+  overflow: hidden;
 }
 
 .logo {
@@ -152,7 +169,7 @@ ul li {
   align-items: center;
   justify-content: flex-start;
   flex-flow: row;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   transition: 0.2s;
 }
 ul li:hover {
@@ -173,6 +190,12 @@ ul li:hover {
   cursor: pointer;
   color: rgb(22, 131, 255);
   transition: 0.2s;
+}
+
+.viewlist {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

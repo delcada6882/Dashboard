@@ -4,9 +4,10 @@ $blue_light: rgb(207, 221, 255);
 $height: 100vh;
 $darker: rgba(0,0,0,.075);
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 *{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: lighter;
+    font-family: 'Open Sans', Geneva, Tahoma, sans-serif;
 }
 li{
     list-style-position: inside;
@@ -40,6 +41,7 @@ h5{
 }
 h4 {
     color: $primary_blue;
+    font-weight: 400;
 }
 .cardUpdate h4, .recentPayments h4{
     background-color: $blue_light;

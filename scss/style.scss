@@ -3,6 +3,8 @@
 * {
     margin: 0;
     padding: 0;
+    font-weight: 400;
+    font-family: 'Open Sans';
 }
 @mixin flexCenter($align, $justify, $direction) {
     display: flex;
@@ -11,8 +13,8 @@
     flex-flow: $direction;
 }
 body {
-    @include flexCenter(flex-start, flex-start, row);
-    padding: 30px
+    @include flexCenter(center, center, row);
+    height: 100vh;
 }
 .container {
     overflow: hidden;
@@ -52,14 +54,18 @@ body {
     margin-left: 5%;
 }
 .historyPayments {
-    @include flexCenter(flex-start, flex-start, row wrap);
+    @include flexCenter(flex-start, space-between, row wrap);
     margin-left: 5%;
     .accounts {
-        margin-bottom: 5%;
+        margin-bottom: 10px;
         width: 40%;
         padding-right: 10%;
         display: flex;
         align-items: center;
+        justify-content: space-between;
+        .anything {
+            display: flex;
+        }
         img {
             width: 50px;
             margin: 10px;
@@ -68,7 +74,6 @@ body {
             @include flexCenter(flex-start, center, column)
         }
         .account-amount {
-            padding-left: 60%;
             display: flex;
             justify-content: center;
             align-items: flex-end;
@@ -78,7 +83,6 @@ body {
 }
 .holder {
     @include flexCenter(flex-start, flex-start, row);
-    // margin-left: 80px;
     svg {
         transform: scale(3);
         margin-top: 45px;
@@ -91,6 +95,14 @@ body {
 }
 
 
+
+nav {
+    width: 33%
+}
+.navigation {
+    @include flexCenter(flex-start, space-between, column);
+    overflow: hidden;
+}
 .logo {
     margin-bottom: 20px;
     h3 {
@@ -115,7 +127,7 @@ ul {
     li {
         list-style: none;
         @include flexCenter(center, flex-start, row);
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         transition: 0.2s;
     }
     li:hover {
@@ -138,4 +150,9 @@ ul {
         color: rgb(22, 131, 255);
         transition: 0.2s;
     }
+}
+.viewlist {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
 }
