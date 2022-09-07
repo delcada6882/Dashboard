@@ -85,10 +85,6 @@ body {
         margin-left: 10px;
     }
 }
-.addCard {
-    border: 1px solid black;
-    height: 100px;
-}
 .cardImages {
     @include flexCenter(center, center, row);
     transform: scale(3);
