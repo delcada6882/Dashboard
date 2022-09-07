@@ -4,7 +4,6 @@ $blue_light: rgb(207, 221, 255);
 $height: 100vh;
 $darker: rgba(0,0,0,.075);
 
-
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: lighter;
@@ -52,10 +51,4 @@ h4 {
     background-color: $darker;
     padding: 7px;
     border-radius: 5px;
-}
-.historyPayments :nth-child(n + 2) img{
-    border-radius: 4px;
-    mask-image: url(https://i.postimg.cc/bvG2Jpj0/clipmask2.png);
-    filter: invert(100%) grayscale(1000%) brightness(1000%);
-
 }

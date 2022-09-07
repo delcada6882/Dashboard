@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -40,7 +42,10 @@ body {
 .recentPayments {
     @include flexCenter(center, space-between, row);
     margin-left: 5%;
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    h4 {
+        height: 20px
+    }
 }
 .historyHeader {
     @include flexCenter(center, space-between, row);
