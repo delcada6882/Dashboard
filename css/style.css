@@ -84,4 +84,8 @@ body {
   flex-flow: column;
 }
 
+ol li {
+  list-style: none;
+}
+
 /*# sourceMappingURL=style.css.map */
