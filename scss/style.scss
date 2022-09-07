@@ -19,7 +19,6 @@ body {
     @include flexCenter(center, space-between, row);
     margin-bottom: 30px;
     transition: 0.2s;
-    padding: 0px 20px;
     h3:hover {
         cursor: pointer;
         transition: 0.2s;
@@ -74,7 +73,7 @@ body {
 }
 .holder {
     @include flexCenter(flex-start, flex-start, row);
-    margin-left: 20px;
+    // margin-left: 80px;
     svg {
         transform: scale(3);
         margin-top: 45px;

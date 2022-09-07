@@ -22,7 +22,6 @@ body {
   flex-flow: row;
   margin-bottom: 30px;
   transition: 0.2s;
-  padding: 0px 20px;
 }
 .header h3:hover {
   cursor: pointer;
@@ -100,7 +99,6 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
   flex-flow: row;
-  margin-left: 20px;
 }
 .holder svg {
   transform: scale(3);
