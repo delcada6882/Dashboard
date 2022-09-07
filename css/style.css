@@ -128,6 +128,10 @@ body {
   transform: scale(3);
 }
 
+nav {
+  padding-right: 100px;
+}
+
 .navigation {
   display: flex;
   align-items: flex-start;
