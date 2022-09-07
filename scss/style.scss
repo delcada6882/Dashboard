@@ -12,17 +12,28 @@ body {
     @include flexCenter(flex-start, flex-start, row);
     padding: 30px
 }
+.container {
+    overflow: hidden;
+}
 .header {
     @include flexCenter(center, space-between, row);
     margin-bottom: 30px;
+    transition: 0.2s;
+    padding: 0px 20px;
+    h3:hover {
+        cursor: pointer;
+        transition: 0.2s;
+        background-color: rgb(207, 221, 255);
+    }
 }
 .pending {
-    width: 43%;
-    padding-left: 5%;
+    width: 50%;
+    padding: 2%;
     h1 {
         font-size: 40px;
     }
 }
+
 .cardUpdate {
     margin-bottom: 5%;
     @include flexCenter(center, space-between, row);
@@ -61,10 +72,70 @@ body {
         }
     }
 }
+.holder {
+    @include flexCenter(flex-start, flex-start, row);
+    margin-left: 20px;
+    svg {
+        transform: scale(3);
+        margin-top: 45px;
+        margin-left: 10px;
+    }
+}
+.addCard {
+    border: 1px solid black;
+    height: 100px;
+}
+.cardImages {
+    @include flexCenter(center, center, row);
+    transform: scale(3);
+}
 
 
-ol {
+.logo {
+    margin-bottom: 20px;
+    h3 {
+        font-size: 25px;
+    }
+}
+.profile {
+    @include flexCenter(center, center, row);
+    margin-bottom: 20px;
+    svg {
+        transform: scale(2);
+    }
+    svg:hover {
+        cursor: pointer;
+    }
+}
+svg {
+    margin-right: 25px;
+}
+ul {
+    margin-top: 10px;
     li {
         list-style: none;
+        @include flexCenter(center, flex-start, row);
+        margin-bottom: 10px;
+        transition: 0.2s;
+    }
+    li:hover {
+        cursor: pointer;
+        color: rgb(22, 131, 255);;
+        background-color: rgb(207, 221, 255);
+        transition: 0.2s;
+        border-radius: 25px;
+    }
+}
+.paymentFlow {
+    h3 {
+        margin-top: 25px;
+        color:black;
+        font-size: 20px;
+        transition: 0.2s;
+    }
+    h3:hover {
+        cursor: pointer;
+        color: rgb(22, 131, 255);
+        transition: 0.2s;
     }
 }

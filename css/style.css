@@ -11,17 +11,28 @@ body {
   padding: 30px;
 }
 
+.container {
+  overflow: hidden;
+}
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-flow: row;
   margin-bottom: 30px;
+  transition: 0.2s;
+  padding: 0px 20px;
+}
+.header h3:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  background-color: rgb(207, 221, 255);
 }
 
 .pending {
-  width: 43%;
-  padding-left: 5%;
+  width: 50%;
+  padding: 2%;
 }
 .pending h1 {
   font-size: 40px;
@@ -84,8 +95,87 @@ body {
   flex-flow: column;
 }
 
-ol li {
+.holder {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-flow: row;
+  margin-left: 20px;
+}
+.holder svg {
+  transform: scale(3);
+  margin-top: 45px;
+  margin-left: 10px;
+}
+
+.addCard {
+  border: 1px solid black;
+  height: 100px;
+}
+
+.cardImages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row;
+  transform: scale(3);
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+.logo h3 {
+  font-size: 25px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row;
+  margin-bottom: 20px;
+}
+.profile svg {
+  transform: scale(2);
+}
+.profile svg:hover {
+  cursor: pointer;
+}
+
+svg {
+  margin-right: 25px;
+}
+
+ul {
+  margin-top: 10px;
+}
+ul li {
   list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-flow: row;
+  margin-bottom: 10px;
+  transition: 0.2s;
+}
+ul li:hover {
+  cursor: pointer;
+  color: rgb(22, 131, 255);
+  background-color: rgb(207, 221, 255);
+  transition: 0.2s;
+  border-radius: 25px;
+}
+
+.paymentFlow h3 {
+  margin-top: 25px;
+  color: black;
+  font-size: 20px;
+  transition: 0.2s;
+}
+.paymentFlow h3:hover {
+  cursor: pointer;
+  color: rgb(22, 131, 255);
+  transition: 0.2s;
 }
 
 /*# sourceMappingURL=style.css.map */
