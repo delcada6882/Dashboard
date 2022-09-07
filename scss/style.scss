@@ -83,7 +83,6 @@ body {
 }
 .holder {
     @include flexCenter(flex-start, flex-start, row);
-    // margin-left: 80px;
     svg {
         transform: scale(3);
         margin-top: 45px;
