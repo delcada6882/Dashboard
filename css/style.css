@@ -13,13 +13,6 @@ body {
   padding: 30px;
 }
 
-.navigation {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-flow: column;
-}
-
 .container {
   overflow: hidden;
 }
@@ -131,6 +124,13 @@ body {
   transform: scale(3);
 }
 
+.navigation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-flow: column;
+}
+
 .logo {
   margin-bottom: 20px;
 }
@@ -176,9 +176,6 @@ ul li:hover {
   border-radius: 25px;
 }
 
-.paymentFlow {
-  justify-self: flex-end;
-}
 .paymentFlow h3 {
   margin-top: 25px;
   color: black;

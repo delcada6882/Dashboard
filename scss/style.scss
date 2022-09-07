@@ -15,9 +15,6 @@ body {
     @include flexCenter(flex-start, flex-start, row);
     padding: 30px
 }
-.navigation {
-    @include flexCenter(flex-start, flex-start, column);
-}
 .container {
     overflow: hidden;
 }
@@ -99,6 +96,11 @@ body {
 }
 
 
+
+
+.navigation {
+    @include flexCenter(flex-start, space-between, column);
+}
 .logo {
     margin-bottom: 20px;
     h3 {
@@ -135,7 +137,6 @@ ul {
     }
 }
 .paymentFlow {
-    justify-self: flex-end;
     h3 {
         margin-top: 25px;
         color:black;
