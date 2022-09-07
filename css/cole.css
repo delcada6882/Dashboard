@@ -57,9 +57,6 @@ h4 {
 .cards .addCard:hover {
   transform: translateX(-25%);
 }
-.cards .addCard:hover .newCard {
-  transform: translateX(-100em);
-}
 .cards .addCard {
   transition: 0.2s;
   padding: 2%;

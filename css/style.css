@@ -39,6 +39,9 @@ body {
 .pending h1 {
   font-size: 40px;
 }
+.pending h4 {
+  width: 15.5%;
+}
 
 .cardUpdate {
   margin-bottom: 5%;
