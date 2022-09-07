@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 * {
-  font-family: "Open Sans", Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
 }
 
 li {
@@ -35,7 +35,6 @@ h5 {
 
 h4 {
   color: rgb(22, 131, 255);
-  font-weight: 400;
 }
 
 .cardUpdate h4, .recentPayments h4 {
@@ -51,7 +50,6 @@ h4 {
   border-radius: 5px;
 }
 
-<<<<<<< HEAD
 .addCard {
   padding: 5%;
   display: flex;
@@ -65,7 +63,6 @@ h4 {
 }
 .addCard img {
   width: 25%;
-  color: wheat;
 }
 
 .cardNumbs {
@@ -84,6 +81,4 @@ h4 {
   font-size: 3px;
 }
 
-=======
->>>>>>> 46b9b19812c88fcdb448916bc2b3ef93bacc7e6e
 /*# sourceMappingURL=cole.css.map */
