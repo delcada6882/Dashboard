@@ -13,8 +13,8 @@
     flex-flow: $direction;
 }
 body {
-    @include flexCenter(flex-start, flex-start, row);
-    padding: 30px
+    @include flexCenter(center, center, row);
+    height: 100vh;
 }
 .container {
     overflow: hidden;
@@ -104,6 +104,7 @@ body {
 
 .navigation {
     @include flexCenter(flex-start, space-between, column);
+    overflow: hidden;
 }
 .logo {
     margin-bottom: 20px;
